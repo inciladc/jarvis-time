@@ -1,0 +1,54 @@
+Introduction
+The heart is a muscular organ about the size of a fist, located just behind and slightly left of the breastbone. The heart pumps blood through the network of arteries and veins called the cardiovascular system.
+
+This pumping action is what gives all human beings the ability to be alive. When the heart stops, a person's life is lost. 
+
+The heart functions 24/7 over 12 months non-stop - as long as one is alive, and the cycle goes on. Thus over the years, just like any mechanical engine, deteriorates over time. Some deterioration may be worse than others. 
+
+This case study aims to understand, based on data, which among the attributes could potentially increase the risk of deterioration than the others and is it consistent to all across the participants.
+
+Here, we will dissect the anatomy of the data from the persons part of this group and evaluate if these attributes correlate to a person having a heart disease and why some may not have otherwise.
+
+This case study does not aim to medically evaluate the participants but rather, based on the attributes and their the numbers, interpret, if by having that number would suffice an evaluation of a heart disease or otherwise.
+
+Acknowledgments
+
+Data Origin/Creators:
+
+Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
+Donor:
+David W. Aha (aha '@' ics.uci.edu) (714) 856-8779
+
+Data Summary:
+Sample Size: 302
+
+Attributes:
+age = age
+sex = sex
+cp = chest pain type (4 values)
+trestbps = resting blood pressure 
+chol = serum cholestoral in mg/dl
+fbs = fasting blood sugar > 120 mg/dl
+restecg = resting electrocardiographic results (values 0,1,2)
+thalach = maximum heart rate achieved
+exang = exercise induced angina
+oldpeak = ST depression induced by exercise relative to rest
+slope = the slope of the peak exercise ST segment
+ca = number of major vessels (0-3) colored by flourosopy
+thal = thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+target = heart disease (1), no heart disease (0)
+bplevel = bp<120 normal, bp<=150 moderate, bp>150 critical
+disease = yes(with heart disease) no(w/o heart disease)
+sugar_g120 = sugar from fbs > 120 (yes/no)
+
+Participants Summary
+```{r, echo=FALSE}
+length(myheart$age)-1
+
+```
+
+
+
